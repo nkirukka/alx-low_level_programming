@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * print_alphabet - print alphabet ten times
+ * print_alphabet - print alphabet
  *
- * Description: print alpha ten times
+ * Description: print alphabet ten times
  *
  * Return: void
  */
