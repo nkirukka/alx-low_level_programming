@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+
+/**
+ * print_alphabet - print alphabet ten times
+ *
+ * Return: void
+ */
+
 void print_alphabet_x10(void)
 {
 int i = 10;
@@ -14,5 +21,5 @@ j++;
 _putchar(10);
 i++;
 }
-return 0;
+return;
 }
