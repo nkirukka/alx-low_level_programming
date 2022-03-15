@@ -1,21 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 
-void print_alphabet()
+void print_alphabet(void)
 {
 int i;
 i = 97;
 while (i < 123)
 {
-putchar(i);
+_putchar(i);
 i++;
 }
-putchar(10);
+_putchar(10);
 return;
-}
-
-int main(void)
-{
-print_alphabet();
-return (0);
 }
