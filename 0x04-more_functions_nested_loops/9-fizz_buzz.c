@@ -9,27 +9,23 @@
 
 int main(void)
 {
-int a;
-for (a = 1; a <= 100; a++)
-{
-if (a % 15 == 0)
-{
-printf("FizzBuzz ");
-}
-else if (a % 3 == 0)
-{
-printf("Fizz ");
-}
-else if (a % 5 == 0)
-{
-printf("Buzz ");
-}
-else
-{
-printf(" %d ", a);
-}
-}
-printf("\n");
+	int n;
 
-return (0);
+	for (n = 1; n < 101; n++)
+	{
+		if (n % 5 == 0 && n % 3 == 0)
+			printf("FizzBuzz ");
+		else if (n % 5 == 0)
+			if (n == 100)
+				printf("Buzz");
+			else
+				printf("Buzz ");
+		else if (n % 3 == 0)
+			printf("Fizz ");
+		else
+			printf("%d ", n);
+	}
+	printf("\n");
+
+	return (0);
 }
