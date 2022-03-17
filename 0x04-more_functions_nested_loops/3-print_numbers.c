@@ -1,12 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 
 
 /**
 * print_numbers - print 0 to 9i
 *
-*
-* Return: void
 */
 
 void print_numbers(void)
