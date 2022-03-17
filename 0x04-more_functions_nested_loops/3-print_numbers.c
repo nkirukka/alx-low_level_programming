@@ -2,7 +2,7 @@
 
 
 /**
-* print_numbers - print 0 to 9i
+* print_numbers - print 0 to 9
 *
 */
 
