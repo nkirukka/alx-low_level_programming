@@ -3,7 +3,7 @@
 
 
 /**
-* print_numbers  - checks for numbers
+* print_numbers - print 0 to 9i
 *
 *
 * Return: void
@@ -18,6 +18,5 @@ for (i = '0'; i <= '9'; i++)
 _putchar(i);
 }
 _putchar('\n');
-return;
 }
 
