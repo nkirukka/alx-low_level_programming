@@ -4,6 +4,8 @@
 /**
  * reset_to_98 - reset int to 98
  *
+ * @n: integer
+ *
  * Return: void
  */
 
