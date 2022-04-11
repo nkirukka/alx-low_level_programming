@@ -1,19 +1,21 @@
 #ifndef DOG_H
 #define DOG_H
 
+int _putchar(char c);
+
 /**
- * struct Dog - define a new type struct
+ * struct dog - define a new type struct
  *
- * @name: type of char
- * @age: type of float
- * @owner: type of char
+ * @name: type of char, dog's name
+ * @age: type of float, dog's age
+ * @owner: type of char, dog's owner
  *
  * Description: define a type of struct with the above members
  */
 
 
 
-struct Dog
+typedef struct dog
 {
 char *name;
 float age;
